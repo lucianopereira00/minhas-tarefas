@@ -10,6 +10,8 @@ public class MinhasTarefasApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MinhasTarefasApplication.class, args);
 		Tarefas tarefas = new Tarefas();
+		tarefas.menuInicial();
+
 	}
 
 }
